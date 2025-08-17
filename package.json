@@ -2,21 +2,18 @@
   "name": "alura-books-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LucasMB21/alura-books-server.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LucasMB21/alura-books-server/issues"
-  },
-  "homepage": "https://github.com/LucasMB21/alura-books-server#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
