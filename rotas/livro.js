@@ -3,9 +3,11 @@ const { Router } = require("express")
 const router = Router()
 
 router.get('/', (req, res) => {
-    res.send("Hello world from Alura from Brazil!")
+    res.send("Olá mundo da Alura do Brasil!")
 })
 
-router.post
+router.post('/', (req, res) => {
+    res.send("Você fez uma requisição do tipo POST")
+})
 
 module.exports = router
